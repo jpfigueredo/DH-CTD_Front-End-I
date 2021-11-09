@@ -1,0 +1,61 @@
+/* (1)
+Em seu arquivo style.css adicione a importação da sua fonte personalizada, para isso é só colar @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* (7)
+Após a importação das fontes, adicione as seguintes regras de estilo ao arquivo style.css:
+  -- cor de fundo da tag body em modo hexadecimal no valor #131313
+  -- cor do texto da tag h1 em cor predefinida de nome ‘white’
+  -- fonte do texto da tag h1 para Roboto
+  -- altura da classe media-picture em 400px
+  -- imagem de fundo da classe media-picture à sua escolha
+  -- cor do texto da classe review-score em cor predefinida de nome ‘white’
+  - cor do fundo da classe review-score em modo hexadecimal no valor #e6bd09
+  -- padding na classe review-score com valor de 12px
+  -- cor de texto da tag h2 em cor predefinida de nome ‘steelblue’
+  - cor do texto da tag p em modo hexadecimal no valor #bdbdbd
+  - fonte do texto da tag p para Roboto
+  - cor de texto da tag a em cor predefinida de nome ‘yellow’
+*/
+
+body{
+  background-color: #131313;
+}
+h1{
+  color: white;
+  font-family: 'Roboto';
+}
+.media-picture{
+  height: 400px;
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.review-score{
+  color: white;
+  background-color: #e6bd09;
+  padding: 12px;
+}
+h2{
+  color: steelblue;
+}
+
+p{
+  font-family: 'Roboto';
+  color: #bdbdbd;
+}
+
+a{
+  color: yellow;
+}
+
+/* ADITIONAL */
+/* 
+Adicione a regra background-size: cover; em sua classe media-picture;
+Adicione a regra background-position: center; em sua classe media-picture;
+
+ */
+
+/* FIN */
