@@ -36,6 +36,7 @@ header{
 iframe{
     display:block;
     border: 4px solid;
+    border-radius: 10px;
 }
 
 h2{
