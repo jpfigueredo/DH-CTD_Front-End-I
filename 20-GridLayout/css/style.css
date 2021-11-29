@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+
+}
+body{
+    display:grid;
+}
+
+body header{
+    background-color:green;
+    /* largura das colunas da nossa Grid */
+    grid-template-columns: 200px 1fr;
+    grid-area: header;
+}
+
+body aside{
+    background-color:red;
+    grid-area: aside;
+}
+
+body main{
+    background-color: blue;
+    grid-area: main;
+}
+
+body footer{
+    background-color: black;
+    grid-area: footer;
+}

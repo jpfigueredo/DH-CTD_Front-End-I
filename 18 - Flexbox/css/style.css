@@ -1,0 +1,25 @@
+.containerCard {
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* todos os elementos vão ter isso */
+}
+
+.itemCard {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 1%;
+    width: 30%;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.itemCard h3{
+    align-self: center;
+}
+
+.itemCard p{
+    /* definir config do p */
+}

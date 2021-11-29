@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <header>
+            <h1>Formulário I</h1>
+        </header>
+        <main>
+            <form action="/cadastrar" method="POST" name="cadastroUsuario">
+
+                <fieldset form="cadastroUsuario">
+
+                    <legend>Inscrição</legend>
+                    <div id="divNome">
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome" name="nome" id="nome">
+                    </div>
+        
+                    <div id="divEmail">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email">
+                    </div>
+        
+                    <div id="divSenha">
+                        <label for="senha">Senha: </label>
+                        <input type="password" id="pwd" name="senha">
+                    </div>
+        
+                    <div id="divIdade">
+                        <label for="idade">Idade: </label>
+                        <input type="number" id="idade" name="idade">
+                    </div>
+                    
+                    <div>
+                        <label for="curso">Curso: </label>
+                        <select name="curso" id="curso">
+                            <option value="1">Design</option>
+                            <option value="2">Marketing</option>
+                            <option value="3">CTD</option>
+                            <option value="4">Software Engineering</option>
+                            <option value="5">Desenvolvimento de software</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="minibio">Minibio de apresentação: </label>
+                        <textarea name="minibio" id="minibio" cols="30" rows="5" placeholder="Insira sua minibio aqui."></textarea>
+                    </div>
+
+                </fieldset>
+
+                <div class="divButton">
+                    <button type="submit">Cadastrar</button>
+                    <button type="submit">Limpar</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

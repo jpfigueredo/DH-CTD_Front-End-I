@@ -1,0 +1,19 @@
+/* 
+:focus
+:checked (utilizado em input tipo checkbox)
+:nth-child()
+:disabled
+:enabled */
+
+p:hover{
+    background-color: black;
+    width: fit-content;
+}
+
+#matheuszin::first-letter{
+    background-color: red;
+}
+
+input:focus{
+    background-color: yellow;
+}

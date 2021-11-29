@@ -4,6 +4,7 @@
 }
 body {
 height: 1000px;
+background-image: url(../img/beneficios.jpg);
 }
 
 h1 {
@@ -11,32 +12,39 @@ text-align: center;
 }
 
 .box {
-width: 150px;
-height: 150px;
-padding: 40px;
-border: black 5px solid;
-background-color: coral;
-font-size: 70px;
-text-align: center;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    border: black 5px solid;
+    background-color: coral;
+    font-size: 70px;
+    text-align: center;
 }
 
 #mae {
-border: 10px coral solid;
-padding: 30px;
-position: relative; /*posicionando o ancestral para o absolute funcionar na div 2*/
+    border: 10px coral solid;
+    padding: 30px;
+    position: relative; /*posicionando o ancestral para o absolute funcionar na div 2*/
 }
 
 /* posiciona o elemento em relação ao body
 OU
 em relação ao ancestral mais próximo que esteja posicionado 
 retira o elemento do normal flow (fluxo normal de renderização)*/
+
+/* caixa n2 */
 .absolute {
-position: absolute;
-right: 50px;
-bottom: 30px;
+    position: absolute;
+    left: 100px;
+/* sobrepor */
+z-index: 1;
 }
+/* essa é a caixa n3 */
 .absolute2 {
-position: absolute;
-right: 350px;
-bottom: -70px;
+    position: relative;
+    left:50px;
+    height: 300px;
+    width:190px;
+
+    background-color: yellow;
 }

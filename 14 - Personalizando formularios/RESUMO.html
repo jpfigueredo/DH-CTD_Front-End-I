@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário II</title>
+</head>
+<body>
+    <!-- form -->
+    <form action="/registrar" method="POST">
+        <!-- fieldset == caixa -->
+        <fieldset>
+            <!-- descrição da caixa -->
+            <legend>Cadastro Comum</legend>
+            <p>
+                <!-- label/input -->
+                <label for="nome">Nome: </label>
+                <input type="text" name="usuario" id="nome"><br>
+
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id=senha><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email"><br>
+
+                <label for="dataDeNascimento">Data de Nascimento</label>
+                <input type="date" name="data" id="dataNasc">
+            </p>
+            <p>
+                <!-- textarea -->
+                <label for="comentario">Deixe seu comentário: </label><br>
+                <textarea name="Comentario" id="comentario">Conteúdo </textarea><br>
+                
+                <!-- campo de seleção -->
+                <select name="color">
+                    <!-- optgroup == label para seleção -->
+                    <optgroup label="Cores">
+                        <option value="#ff0000">Vermelho</option>
+                    <!-- repita option -->
+                    </optgroup>
+                </select>
+            </p>
+            <!-- checkbox = +1, radiobuton == 1 -->
+            <p>
+                <!-- radio button -->
+                <input type="radio" name="forma-de-pagamento" value="aVista">
+                <label for="aVista">À Vista</label><br>
+
+                <input type="radio" name="forma-de-pagamento" value="Débito">                
+                <label for="Débito">Débito</label><br>
+                <input type="radio" name="forma-de-pagamento" value="Crédito">
+                <label for="Crédito">Crédito</label>
+            </p>
+            <p>
+                <!-- checkbox -->                
+                <input type="checkbox" name="forma-de-pagamento" value="aVista">    
+                <label for="aVista">À Vista</label><br>
+                
+                <input type="checkbox" name="forma-de-pagamento" value="Débito">    
+                <label for="Débito">Débito</label><br>
+
+
+                <input type="checkbox" name="forma-de-pagamento" value="Crédito">
+                <label for="Crédito">Crédito</label>
+            </p>
+            <!-- botão -->
+            <button type="submit">Enviar</button>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>

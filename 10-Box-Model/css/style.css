@@ -1,14 +1,38 @@
-/* 
-(1) Escolha uma imagem de banner.
-(2) Essa imagem deve conter ao menos 1280x720 pixels.
-(3) Coloque essa imagem como background-image.
-(4) Dê uma largura e altura para a mesma.
-(5) Adicione um título para o seu banner h1.
-(6) Adicione um subtítulo para o banner também h2.
-(7) Crie um botão a partir da tag <button>Meu botão</button>.
-(8) Dê uma altura e uma largura usando apenas o box-model.
-(9) Dê uma borda arredondada.
-(10) Escolha uma cor que te agrade.
-(11) Centralize todos os itens com text-align: center; para que os itens do banner fiquem centralizados.
-(12) Coloque um padding vertical no banner para centralizar os itens verticalmente. 
-*/
+.div1{
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+#div_Batata{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 10px solid rgb(163, 62, 62);
+    background-color: lightpink;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+#div_Banana{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 10px solid green;
+    background-color: yellow;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+
+#div_Feijao{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 10px solid rgb(27, 26, 26);
+    background-color: darkgray;
+    border-radius: 10px;
+    display: flex;
+}
