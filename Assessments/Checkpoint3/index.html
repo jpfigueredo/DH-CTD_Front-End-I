@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--style-->
+    <link rel="stylesheet" href="public/css/style.css" />
+    <title>Checkpoint</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <div class="container-fluid fixed-top">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <a href="#" class="navbar-brand navbar-text">
+              <img src="public/images/logo.png" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button"            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sessão-1">Itens</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  data-bs-toggle="modal" data-bs-target="#ExemploModalCentralizado" href="ExemploModalCentralizado">Login</a>
+                </li>
+              </ul>
+        </div>
+          
+      </nav>
+    </div>
+    <!--header-->
+    <header class="bg-image">
+        <div class="container hy-75 py-5">
+          <div class="container w-75 hy-50 py-5">
+            <h1 class="display-6">DH Flex</h1>
+            <p class="lead">Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
+
+            <button type="button" class="btn btn-success" id="btn">Explorar</button>
+          </div>
+        </div>
+
+      <!-- The Modal -->
+<div class="modal" id="ExemploModalCentralizado">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="d-flex">
+        <img class="w-75 mx-5 py-4" src="public/images/logo2.svg" alt="">
+        <button type="button" class="btn-close align-content-stretch" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form action="" class="container">
+         <div class="form-group">
+          <label for="exampleInputEmail1">Endereço de email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+          <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+        </div>        
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="d-flex my-4">
+        <button type="button" class="btn btn-success mx-auto w-50">Entrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    </header>
+    <!--main-->
+    <main >
+      <div id="sessão-1" class="container mx-auto mt-4">
+        <h2 class="text-center px-4 p-lg-5">Itens</h2>
+        <hr class="divider">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card w-100 shadow p-4 mb-4 bg-white">
+              <!--imagem-->
+              <img src="public/images/card-1.png" alt="Imagem de capa" class="h-25 card-img">
+              <!--card-body-->
+              <div class="card-body">
+                <h4 class="card-title">Coringa</h4>
+                <h6 class="subtitle text-black-50">4 de outubro de 2019</h6>
+                <p class="card-text">
+                  Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô. Sua ação inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.
+                </p>
+               <div class="container">
+                  <a href="public/pages/pagecoringa.html" class="btn btn-primary w-100 px-5">Visitar</a>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100 shadow p-4 mb-4 bg-white">
+              <!--imagem-->
+              <img src="public/images/card-2.png" alt="Imagem de capa" class="h-25 card-img">
+              <!--card-body-->
+              <div class="card-body">
+                <h4 class="card-title">Titulo aqui</h4>
+                <h6 class="subtitle text-black-50">Descrição</h6>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue sed ultrices tristique. Proin maximus rutrum augue, a ultrices.
+                </p>
+               <div class="container">
+                  <a href="#" class="btn btn-primary w-100 px-5">Visitar</a>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100 shadow p-4 mb-4 bg-white">
+              <!--imagem-->
+              <img src="public/images/card-3.png" alt="Imagem de capa" class="h-25 card-img">
+              <!--card-body-->
+              <div class="card-body">
+                <h4 class="card-title">Capitã Marvel</h4>
+                <h6 class="subtitle text-black-50">6 de março de 2019</h6>
+                <p class="card-text">
+Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls. Ao tentar impedir uma invasão de larga escala na Terra, em 1995, ela tem memórias recorrentes de uma outra vida, como Carol Danvers, agente da Força Aérea norte-americana. Com a ajuda de Nick Fury, Capitã Marvel precisa descobrir os segredos de seu passado e pôr um fim ao conflito intergalático com os Skrulls.</p>
+               <div class="container">
+                  <a href="#" class="btn btn-primary w-100 px-5">Visitar</a>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100 shadow p-4 mb-4 bg-white">
+              <!--imagem-->
+              <img src="public/images/card-4.png" alt="Imagem de capa" class="h-25 card-img">
+              <!--card-body-->
+              <div class="card-body">
+                <h4 class="card-title">Dora e a Cidade Perdida</h4>
+                <h6 class="subtitle text-black-50">7 de novembro de 2019</h6>
+                <p class="card-text">
+                  A aventureira Dora rapidamente se vê liderando o macaco Botas, o primo Diego, um misterioso habitante da selva, seus pais e um grupo de adolescentes em uma aventura para resolver um mistério impossível por trás de uma cidade perdida de ouro.
+                </p>
+               <div class="container">
+                  <a href="#" class="btn btn-primary w-100 px-5">Visitar</a>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100 shadow p-4 mb-4 bg-white">
+              <!--imagem-->
+              <img src="public/images/card-5.png" alt="Imagem de capa" class="h-25 card-img">
+              <!--card-body-->
+              <div class="card-body">
+                <h4 class="card-title">1917</h4>
+                <h6 class="subtitle text-black-50">4 de dezembro de 2019  </h6>
+                <p class="card-text">
+                  Na Primeira Guerra Mundial, dois soldados britânicos recebem ordens aparentemente impossíveis de cumprir. Em uma corrida contra o tempo, eles precisam atravessar o território inimigo e entregar uma mensagem que pode salvar 1.600 de seus companheiros.
+                </p>
+               <div class="container">
+                  <a href="#" class="btn btn-primary w-100 px-5">Visitar</a>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card w-100 shadow p-4 mb-4 bg-white">
+              <!--imagem-->
+              <img src="public/images/card-6.png" alt="Imagem de capa" class="h-25 card-img">
+              <!--card-body-->
+              <div class="card-body">
+                <h4 class="card-title">Thor: O Mundo Sombrio</h4>
+                <h6 class="subtitle text-black-50">8 de novembro de 2013</h6>
+                <p class="card-text">
+                  Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo.
+                </p>
+               <div class="container">
+                  <a href="#" class="btn btn-primary w-100 px-5">Visitar</a>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--footer-->
+    <footer class="bg-dark text-light p-5">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 p-4 mb-4">
+              <h3>Fábio Neres.</h3>
+              <p>Bacharel em Sistema de Informação pela Universidade Luterana do Brasil e Certifield Tech Developer pela Digital House.
+                Generalista em TI : Developer</p> 
+               <a href="https://www.linkedin.com/in/fábioneres" target="_blank" rel="noopener noreferrer"><img src="public/images/icon-linkedin.png" alt=""></a>
+              <a href="https://github.com/neresfabio" target="_blank" rel="noopener noreferrer"><img src="public/images/icon-github.png" alt=""></a>
+            </div>
+            <div class="col-md-4 p-4 mb-4">
+              <h3>João Figueredo.</h3>
+              <p>Estudante em Engenharia de Software, INFNET.
+                Certified Tech Developer, Digital House. 
+                Responsável por auxiliar na construção do front-end.</p>
+               <a href="https://www.linkedin.com/in/jpfigueredo/" target="_blank" rel="noopener noreferrer"><img src="public/images/icon-linkedin.png" alt=""></a>
+              <a href="https://www.github.com/w4sabi" target="_blank" rel="noopener noreferrer"><img src="public/images/icon-github.png" alt=""></a>
+            </div>
+            <div class="col-md-4 p-4 mb-4">
+              <h3>Wallace Assis.</h3>
+              <p>Estudante na Certified Tech Developer | Bacharel em Administração, Responsável por auxiliar na construção Front End</p>
+              <a href="https://www.linkedin.com/in/wallacedejesusassis/" target="_blank" rel="noopener noreferrer"><img src="public/images/icon-linkedin.png" alt=""></a>
+              <a href="https://github.com/Wallaceadm" target="_blank" rel="noopener noreferrer"><img src="public/images/icon-github.png" alt=""></a>
+            </div>
+            <div class="d-flex justify-content-center py-4 my-4 border-top">
+              <p>© 2021 Checkpoint-III, Inc. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--script bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("collapsibleNavbar");
+      var btns = header.getElementsByClassName("nav-link");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+      }
+    </script>
+  </body>
+</html>

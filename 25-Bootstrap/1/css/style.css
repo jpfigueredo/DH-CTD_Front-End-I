@@ -1,0 +1,9 @@
+.nav > li > a{
+    color: #E51B3E;
+}
+/* .nav > li > a:hover{
+    color: #626262;
+} */
+main > .content-text h1{
+    position: relative;
+}
